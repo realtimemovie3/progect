@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FITCENTO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/Gym1.jpg);
+        background-repeat: no-repeat;
+        background-position: 1p center;
+        background-size: 100%;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        display: block;
+      }
+      .left {
+        float: left;
+        /* border: 2px solid blue; */
+        margin: 3px 40px;
+        padding: -4px 0px;
+      }
+      .mid {
+        width: 56%;
+        margin: 0px 225px;
+        padding: 1px 17px;
+      }
+      .right {
+        float: right;
+        /* border: 2px solid blue; */
+        margin: -49px 18px;
+        padding: 0px;
+      }
+      .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        margin: 10px 33px;
+        padding: 14px;
+      }
+      .navbar li {
+        display: inline-block;
+        list-style: none;
+        margin: auto;
+        padding: 0px 63px;
+      }
+      .navbar li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: auto;
+        color: aliceblue;
+        text-decoration: none;
+        text-align: center;
+        padding: 2px 5px;
+        margin: 10px -20px;
+      }
+      .navbar ul {
+        padding: auto;
+      }
+      .navbar li a:hover {
+        color: aqua;
+        text-decoration: underline;
+      }
+      .right a {
+        padding: 5px 5px;
+        color: aliceblue;
+        text-decoration: none;
+      }
+      .right button {
+        padding: 1px 10px;
+        background: #5f76a2;
+        border-radius: 20px;
+        size: 10px;
+      }
+      .right button:hover {
+        background: #1d254f;
+      }
+      .right button a {
+        text-decoration: none;
+        display: inline-block;
+      }
+      .login:hover {
+        color: rgb(230, 150, 20);
+      }
+      .logo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: tomato;
+        padding: 5px 1px;
+        margin: 9px -9px;
+      }
+      .iogoim {
+        width: 111px;
+        position: relative;
+      }
+      .left a {
+        padding: auto;
+        position: absolute;
+        margin: 82px -127px;
+      } 
+      .center{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="left">
+          <img src="img/logo.png" alt="" class="iogoim" />
+          <a href="index.html" class="logo">FITCENTO</a>
+        </div>
+        <div class="mid">
+          <ul class="cont">
+            <li>
+              <a href="https://www.google.com/" target="_blank" class="home"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#" class="about">About</a>
+            </li>
+            <li>
+              <a href="#" class="plans">Plans</a>
+            </li>
+            <li>
+              <a href="#" class="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right">
+          <a href="#" class="login">Login</a>
+          <a>or</a>
+          <button><a href="#" class="singup">Sing Up</a></button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row">
+      <div class="col-lg-6 offset-lg-6">
+          <div class="hi-text">
+              <span>Shape Your Body</span>
+              <h1>BE <strong>STRONG</strong> TRANING HARD</h1>
+              <button>
+              <a href="#" class="primary-btn">Get info</a>
+            </button>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>
