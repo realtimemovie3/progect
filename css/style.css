@@ -1,0 +1,56 @@
+.row{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style:normal ;
+    width: 42%;
+    float: right;
+    padding: 10.2% 5%;
+    margin: 0px 50px;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.hi-text span{
+    transition: all 0.4s ease-in-out;
+}
+.hi-text span:hover{
+    transform: scale(1.25);
+}
+.hi-text h1{
+    font-size: 50px;
+    transition: all 0.4s ease-in-out;   
+}
+.hi-text h1:hover{
+    transform: scale(1.25);
+}
+.hi-text h1 strong{
+    color: rgb(223, 102, 16);
+}
+.hi-text button a{
+    size: 128px;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    color: azure;
+}
+.hi-text button{
+    transition: all 0.15s ease-in-out;
+    size: 16px;
+    background-color: rgb(238, 16, 39);
+    color: white;
+    /* border: 2px solid blue; */
+    border-radius: 6px;
+    padding: 5px 5px    
+}
+.hi-text button:hover{
+    transform: scale(1.15);
+    background-color: rgb(61, 38, 241);
+    border: 2px solid red;
+    color: rgb(11, 208, 248);
+    
+}
+.hi-text button a:hover{
+    color: whitesmoke;
+}
